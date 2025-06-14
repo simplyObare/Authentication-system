@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/src/output.css' %}" />
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body class="w-screen overflow-x-hidden grid place-items-center">
+    <div class="container py-10">{% block content %}{% endblock %}</div>
+
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>

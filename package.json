@@ -1,0 +1,27 @@
+{
+  "name": "authentication-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "npx @tailwindcss/cli -i ./static/css/src/input.css -o ./static/css/src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplyObare/Authentication-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/simplyObare/Authentication-system/issues"
+  },
+  "homepage": "https://github.com/simplyObare/Authentication-system#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "flowbite": "^3.1.2",
+    "tailwindcss": "^4.1.10"
+  }
+}
