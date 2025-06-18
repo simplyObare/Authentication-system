@@ -20,11 +20,11 @@
             {% if messages %} {% for message in messages %}
             <div>
               {% if messages.tags == 'error' %}
-              <div class="ms-3 text-sm font-normal text-green-600">
+              <div class="ms-3 text-sm font-normal text-red-600">
                 {{message}}
               </div>
               {% else %}
-              <div class="ms-3 text-sm font-normal text-red-600">
+              <div class="ms-3 text-sm font-normal text-green-600">
                 {{message}}
               </div>
               {% endif %}
@@ -82,7 +82,7 @@
                 </div>
               </div>
               <a
-                href="#"
+                href="{% url 'forgot-password' %}"
                 class="font-medium text-blue-500 hover:underline dark:text-blue-600"
                 >Forgot password?</a
               >
